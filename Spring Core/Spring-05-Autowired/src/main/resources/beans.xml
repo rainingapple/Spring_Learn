@@ -3,9 +3,10 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
         https://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="cat" class="cn.rainingapple.Pojo.XML_based.Cat"></bean>
-    <bean id="dog" class="cn.rainingapple.Pojo.XML_based.Dog"></bean>
-    <bean id="person" class="cn.rainingapple.Pojo.XML_based.Person">
+    <bean id="cat" class="cn.rainingapple.pojo.XML_based.Cat"></bean>
+    <bean id="dog" class="cn.rainingapple.pojo.XML_based.Dog"></bean>
+
+    <bean id="person" class="cn.rainingapple.pojo.XML_based.Person">
         <property name="name" value="张三"></property>
         <property name="cat" ref="cat"></property>
         <property name="dog" ref="dog"></property>

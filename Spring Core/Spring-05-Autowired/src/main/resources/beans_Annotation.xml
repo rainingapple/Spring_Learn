@@ -10,23 +10,23 @@
     <context:annotation-config/>
 
     <!--@Autowired对应的配置-->
-    <!--<bean id="cat" class="cn.rainingapple.Pojo.Annotation_based.Cat"></bean>
-    <bean id="dog" class="cn.rainingapple.Pojo.Annotation_based.Dog"></bean>
-    <bean id="person" class="cn.rainingapple.Pojo.Annotation_based.Person"></bean>-->
+    <!--<bean id="cat" class="cn.rainingapple.pojo.Annotation_based.Cat"></bean>
+    <bean id="dog" class="cn.rainingapple.pojo.Annotation_based.Dog"></bean>
+    <bean id="person" class="cn.rainingapple.pojo.Annotation_based.Person"></bean>-->
 
     <!--@Qualifier对应的配置-->
-    <!--<bean id="dog1" class="cn.rainingapple.Pojo.Annotation_based.Dog"></bean>
-    <bean id="dog2" class="cn.rainingapple.Pojo.Annotation_based.Dog"></bean>
-    <bean id="cat1" class="cn.rainingapple.Pojo.Annotation_based.Cat"></bean>
-    <bean id="cat2" class="cn.rainingapple.Pojo.Annotation_based.Cat"></bean>
+    <!--<bean id="dog1" class="cn.rainingapple.pojo.Annotation_based.Dog"></bean>
+    <bean id="dog2" class="cn.rainingapple.pojo.Annotation_based.Dog"></bean>
+    <bean id="cat1" class="cn.rainingapple.pojo.Annotation_based.Cat"></bean>
+    <bean id="cat2" class="cn.rainingapple.pojo.Annotation_based.Cat"></bean>
 
-    <bean id="person" class="cn.rainingapple.Pojo.Annotation_based.Person"></bean>-->
+    <bean id="person" class="cn.rainingapple.pojo.Annotation_based.Person"></bean>-->
 
     <!--@Resource的对应配置-->
-    <bean id="dog1" class="cn.rainingapple.Pojo.Annotation_based.Dog"></bean>
-    <bean id="cat1" class="cn.rainingapple.Pojo.Annotation_based.Cat"></bean>
-    <bean id="cat2" class="cn.rainingapple.Pojo.Annotation_based.Cat"></bean>
+    <bean id="dog1" class="cn.rainingapple.pojo.Annotation_based.Dog"></bean>
+    <bean id="cat1" class="cn.rainingapple.pojo.Annotation_based.Cat"></bean>
+    <bean id="cat2" class="cn.rainingapple.pojo.Annotation_based.Cat"></bean>
 
-    <bean id="person" class="cn.rainingapple.Pojo.Annotation_based.Person"></bean>
+    <bean id="person" class="cn.rainingapple.pojo.Annotation_based.Person"></bean>
 
 </beans>

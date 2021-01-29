@@ -1,4 +1,4 @@
-import cn.rainingapple.Pojo.Annotation_based.Person;
+import cn.rainingapple.pojo.Annotation_based.Person;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

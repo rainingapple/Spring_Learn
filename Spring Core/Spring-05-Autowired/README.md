@@ -117,9 +117,9 @@ public class Person {
        xsi:schemaLocation="http://www.springframework.org/schema/beans
         https://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="cat" class="cn.rainingapple.Pojo.XML_based.Cat"></bean>
-    <bean id="dog" class="cn.rainingapple.Pojo.XML_based.Dog"></bean>
-    <bean id="person" class="cn.rainingapple.Pojo.XML_based.Person">
+    <bean id="cat" class="cn.rainingapple.pojo.XML_based.Cat"></bean>
+    <bean id="dog" class="cn.rainingapple.pojo.XML_based.Dog"></bean>
+    <bean id="person" class="cn.rainingapple.pojo.XML_based.Person">
         <property name="name" value="张三"></property>
         <property name="cat" ref="cat"></property>
         <property name="dog" ref="dog"></property>
@@ -146,7 +146,7 @@ public class MyTest {
 
 ```xml
 <!--使用byName自动装配，需要注意的是必须完全一致，大小写敏感-->
-<bean id="person" class="cn.rainingapple.Pojo.XML_based.Person" autowire="byName">
+<bean id="person" class="cn.rainingapple.pojo.XML_based.Person" autowire="byName">
     <property name="name" value="张三"></property>
 </bean>
 ```
@@ -157,7 +157,7 @@ public class MyTest {
 
 ```xml
 <!--使用byType自动装配，需要注意同一类型必须只有一个-->
-<bean id="person" class="cn.rainingapple.Pojo.XML_based.Person" autowire="byType">
+<bean id="person" class="cn.rainingapple.pojo.XML_based.Person" autowire="byType">
     <property name="name" value="张三"></property>
 </bean>
 ```
@@ -237,9 +237,10 @@ public class Person {
 #### 新的xml配置文件
 
 ```xml
-<bean id="cat" class="cn.rainingapple.Pojo.Annotation_based.Cat"></bean>
-<bean id="dog" class="cn.rainingapple.Pojo.Annotation_based.Dog"></bean>
-<bean id="person" class="cn.rainingapple.Pojo.Annotation_based.Person"></bean>
+
+<bean id="cat" class="cn.rainingapple.pojo.Annotation_based.Cat"></bean>
+<bean id="dog" class="cn.rainingapple.pojo.Annotation_based.Dog"></bean>
+<bean id="person" class="cn.rainingapple.pojo.Annotation_based.Person"></bean>
 ```
 
 ### @Qualifier
@@ -281,12 +282,13 @@ public class Person {
 #### 新的xml配置文件
 
 ```xml
-<bean id="dog1" class="cn.rainingapple.Pojo.Annotation_based.Dog"></bean>
-<bean id="dog2" class="cn.rainingapple.Pojo.Annotation_based.Dog"></bean>
-<bean id="cat1" class="cn.rainingapple.Pojo.Annotation_based.Cat"></bean>
-<bean id="cat2" class="cn.rainingapple.Pojo.Annotation_based.Cat"></bean>
 
-<bean id="person" class="cn.rainingapple.Pojo.Annotation_based.Person"></bean>
+<bean id="dog1" class="cn.rainingapple.pojo.Annotation_based.Dog"></bean>
+<bean id="dog2" class="cn.rainingapple.pojo.Annotation_based.Dog"></bean>
+<bean id="cat1" class="cn.rainingapple.pojo.Annotation_based.Cat"></bean>
+<bean id="cat2" class="cn.rainingapple.pojo.Annotation_based.Cat"></bean>
+
+<bean id="person" class="cn.rainingapple.pojo.Annotation_based.Person"></bean>
 ```
 
 ### @Resource
@@ -329,11 +331,12 @@ public class Person {
 #### 新的xml配置文件
 
 ```xml
-<bean id="dog1" class="cn.rainingapple.Pojo.Annotation_based.Dog"></bean>
-<bean id="cat1" class="cn.rainingapple.Pojo.Annotation_based.Cat"></bean>
-<bean id="cat2" class="cn.rainingapple.Pojo.Annotation_based.Cat"></bean>
 
-<bean id="person" class="cn.rainingapple.Pojo.Annotation_based.Person"></bean>
+<bean id="dog1" class="cn.rainingapple.pojo.Annotation_based.Dog"></bean>
+<bean id="cat1" class="cn.rainingapple.pojo.Annotation_based.Cat"></bean>
+<bean id="cat2" class="cn.rainingapple.pojo.Annotation_based.Cat"></bean>
+
+<bean id="person" class="cn.rainingapple.pojo.Annotation_based.Person"></bean>
 ```
 
 ### @Autowired与@Resource异同

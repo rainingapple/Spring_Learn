@@ -1,4 +1,4 @@
-package cn.rainingapple.Pojo.Annotation_based;
+package cn.rainingapple.pojo.XML_based;
 
 public class Cat {
     public void say(){

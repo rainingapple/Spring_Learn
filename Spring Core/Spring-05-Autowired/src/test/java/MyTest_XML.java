@@ -1,4 +1,4 @@
-import cn.rainingapple.Pojo.XML_based.Person;
+import cn.rainingapple.pojo.XML_based.Person;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
