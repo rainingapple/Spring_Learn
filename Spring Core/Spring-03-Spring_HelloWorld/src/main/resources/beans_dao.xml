@@ -1,0 +1,13 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="MySql" class="cn.rainingapple.pojo.Dao.userDaoImplMysql"></bean>
+    <bean id="Oracle" class="cn.rainingapple.pojo.Dao.userDaoImplOracle"></bean>
+    <bean id="SqlServer" class="cn.rainingapple.pojo.Dao.userDaoImplSqlServer"></bean>
+    
+    <bean id="service" class="cn.rainingapple.pojo.Service.UserServiceImpl">
+        <property name="userDao" ref="Oracle"></property>
+    </bean>
+</beans>

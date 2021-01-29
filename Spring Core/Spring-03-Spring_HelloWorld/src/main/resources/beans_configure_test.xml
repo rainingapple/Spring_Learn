@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--取别名-->
+    <alias name="Apple" alias="Green_Apple"></alias>
+
+    <!--id 是bean的标识符,要唯一,如果没有配置id,name就是默认标识符
+    如果配置id,又配置了name,那么name是别名,name可以设置多个，可以用逗号,分号,空格隔开
+    如果不配置id和name,可以根据applicationContext.getBean(.class)获取对象;-->
+    <!--class是bean的全限定名=包名+类名-->
+
+    <bean id="Apple" name="u1 u2,u3;u4" class="cn.rainingapple.DI_Test.Apple_Arg">
+        <constructor-arg value="通过索引进行构造"></constructor-arg>
+    </bean>
+
+</beans>

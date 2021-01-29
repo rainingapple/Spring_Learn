@@ -1,0 +1,61 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="Address" class="cn.rainingapple.Address">
+        <property name="address" value="中南大学"></property>
+    </bean>
+
+    <bean id="Student" class="cn.rainingapple.Student">
+        <!--第一种，普通value值注入-->
+        <property name="name" value="张三"></property>
+        <!--第二种，bean的ref注入-->
+        <property name="address" ref="Address"></property>
+        <!--第三种，数组的array注入-->
+        <property name="books" >
+            <array>
+                <value>飘</value>
+                <value>霍乱时期的爱情</value>
+                <value>源氏物语</value>
+            </array>
+        </property>
+        <!--第四种，List的list注入-->
+        <property name="hobbys">
+            <list>
+                <value>唱</value>
+                <value>跳</value>
+                <value>rap</value>
+                <value>练球</value>
+            </list>
+        </property>
+        <!--第五种，Map的map注入-->
+        <property name="card">
+            <map>
+                <entry key="身份证" value="1234654654321"></entry>
+                <entry key="银行卡" value="454645646"></entry>
+                <entry key="校园卡" value="613248432"></entry>
+            </map>
+        </property>
+        <!--第六种，Set的set注入-->
+        <property name="games">
+            <set>
+                <value>DOTA</value>
+                <value>炉石传说</value>
+                <value>打地鼠</value>
+            </set>
+        </property>
+        <!--第七种，NUll的null注入，注意NULL不是空串-->
+        <property name="wife">
+            <null></null>
+        </property>
+        <!--第七种，Properties的props注入-->
+        <property name="info">
+            <props>
+                <prop key="user">root</prop>
+                <prop key="password">123456</prop>
+            </props>
+        </property>
+    </bean>
+
+</beans>

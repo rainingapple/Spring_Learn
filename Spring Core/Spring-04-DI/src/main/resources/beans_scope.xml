@@ -1,0 +1,12 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!---单例模式，默认也是单例模式-->
+    <!--<bean id="User" class="cn.rainingapple.User"></bean>-->
+    <!--<bean id="User" class="cn.rainingapple.User" scope="singleton"></bean>-->
+
+    <!--原型模式，每一个独立生成-->
+    <bean id="User" class="cn.rainingapple.User" scope="prototype"></bean>
+
+</beans>

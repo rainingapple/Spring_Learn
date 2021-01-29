@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="Apple" class="cn.rainingapple.DI_Test.Apple_Arg">
+        <constructor-arg value="通过索引进行构造"></constructor-arg>
+    </bean>
+
+    <!--<bean id="Apple" class="cn.rainingapple.DI_Test.Apple_Arg">
+        <constructor-arg name="apple" value="通过名称进行构造"></constructor-arg>
+    </bean>-->
+
+    <!--<bean id="Apple" class="cn.rainingapple.DI_Test.Apple_Arg">
+        <constructor-arg type="java.lang.String" value="通过类型进行构造"></constructor-arg>
+    </bean>-->
+
+</beans>

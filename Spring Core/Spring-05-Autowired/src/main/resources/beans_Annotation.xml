@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        https://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:annotation-config/>
+
+    <!--@Autowired对应的配置-->
+    <!--<bean id="cat" class="cn.rainingapple.Pojo.Annotation_based.Cat"></bean>
+    <bean id="dog" class="cn.rainingapple.Pojo.Annotation_based.Dog"></bean>
+    <bean id="person" class="cn.rainingapple.Pojo.Annotation_based.Person"></bean>-->
+
+    <!--@Qualifier对应的配置-->
+    <!--<bean id="dog1" class="cn.rainingapple.Pojo.Annotation_based.Dog"></bean>
+    <bean id="dog2" class="cn.rainingapple.Pojo.Annotation_based.Dog"></bean>
+    <bean id="cat1" class="cn.rainingapple.Pojo.Annotation_based.Cat"></bean>
+    <bean id="cat2" class="cn.rainingapple.Pojo.Annotation_based.Cat"></bean>
+
+    <bean id="person" class="cn.rainingapple.Pojo.Annotation_based.Person"></bean>-->
+
+    <!--@Resource的对应配置-->
+    <bean id="dog1" class="cn.rainingapple.Pojo.Annotation_based.Dog"></bean>
+    <bean id="cat1" class="cn.rainingapple.Pojo.Annotation_based.Cat"></bean>
+    <bean id="cat2" class="cn.rainingapple.Pojo.Annotation_based.Cat"></bean>
+
+    <bean id="person" class="cn.rainingapple.Pojo.Annotation_based.Person"></bean>
+
+</beans>
