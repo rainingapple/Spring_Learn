@@ -10,6 +10,8 @@
 
 [Spring-05-Autowired](http://rainingapple.cn/2021/01/28/Spring-05-Autowired/) : DI Autowired , Configuration Based and Annotation Based 
 
+[Spring-06-Annotation](http://rainingapple.cn/2021/01/29/Spring-06-Annotation/) : Spring Annotaion and Java Based Configuration 
+
 
 
 
