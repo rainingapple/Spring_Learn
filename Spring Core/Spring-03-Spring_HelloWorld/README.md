@@ -184,9 +184,11 @@ public class MyTest_Dao {
 <alias name="Apple" alias="Green_Apple"></alias>
 ```
 
-### beans配置
+### bean配置
 
 #### xml配置文件
+
+name相当于alias别名，可以用空格、逗号、分号分割
 
 ```xml
 <bean id="Apple" name="u1 u2,u3;u4" class="cn.rainingapple.DI_Test.Apple_Arg">

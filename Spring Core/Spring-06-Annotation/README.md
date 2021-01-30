@@ -129,10 +129,11 @@ public class User {
 
 使用原生的java configure来代替xml文件，二者起到等效作用
 
+但是我个人觉得最重要的一点就是，像原来的注释一样要在源码级上改，这个相当于写了个配置
+
 #### pojo类
 
 ```java
-@Component
 public class User_JavaConfig {
     @Value("张三")
     private String name;
