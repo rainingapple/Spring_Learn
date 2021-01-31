@@ -1,4 +1,4 @@
-package demo2;
+package cn.rainingapple;
 
 public class UserServiceImpl implements UserService{
     @Override

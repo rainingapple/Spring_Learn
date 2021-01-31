@@ -1,11 +1,11 @@
-import demo2.UserService;
+import cn.rainingapple.UserService;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-public class MyTest_demo02 {
+public class MyTest {
     public static void main(String[] args) {
         ApplicationContext context = new ClassPathXmlApplicationContext("beans.xml");
-        UserService serviceImpl = context.getBean("userservice", UserService.class);
+        UserService serviceImpl = context.getBean("userserviceimpl", UserService.class);
         serviceImpl.add();
         serviceImpl.delete();
         serviceImpl.modify();
