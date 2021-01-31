@@ -19,7 +19,7 @@ Spring的自动装配需要从两个角度来实现，或者说是两个操作�
 
 **推荐不使用自动装配xml配置 , 而使用注解 .**
 
-
+<!--more-->
 
 **参考**
 
@@ -37,7 +37,7 @@ https://mp.weixin.qq.com/s/kvp_3Uva1J2Q5ZVqCUzEsA
 
 https://github.com/rainingapple/Spring_Learn
 
-<!--more-->
+
 
 ## 原始手动装配
 

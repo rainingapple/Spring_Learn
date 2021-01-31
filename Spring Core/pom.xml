@@ -15,6 +15,8 @@
         <module>Spring-04-DI</module>
         <module>Spring-05-Autowired</module>
         <module>Spring-06-Annotation</module>
+        <module>Spring-07-Proxy</module>
+        <module>Spring-08-AOP</module>
     </modules>
 
     <properties>
