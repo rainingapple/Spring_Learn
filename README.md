@@ -18,5 +18,7 @@ More information see my blog : http://rainingapple.cn/
 
 [Spring-06-Annotation](http://rainingapple.cn/2021/01/29/Spring-06-Annotation/) : Spring Annotaion and Java Based Configuration 
 
+[Spring-07-Proxy](http://rainingapple.cn/2021/01/31/Spring-07-Proxy/) : Static and Dynamic Proxy , the basics of Spring AOP
+
 
 
