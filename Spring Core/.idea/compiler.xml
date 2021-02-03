@@ -12,6 +12,7 @@
         <module name="Spring-09-MyBatis" />
         <module name="Spring-04-DI" />
         <module name="Spring-07-Proxy" />
+        <module name="Spring-10-transaction" />
         <module name="Spring-08-AOP" />
         <module name="Spring-01-Spring" />
         <module name="Spring-03-Spring_HelloWorld" />
