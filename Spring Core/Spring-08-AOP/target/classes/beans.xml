@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/aop
+        https://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <bean id="userserviceimpl" class="cn.rainingapple.UserServiceImpl"></bean>
+    <bean id="prelog" class="cn.rainingapple.spring_api.PreLog"></bean>
+    <bean id="afterlog" class="cn.rainingapple.spring_api.AfterLog"></bean>
+
+    <aop:config>
+        <aop:pointcut id="mypointcut" expression="execution(* cn.rainingapple.UserServiceImpl.*(..) )"/>
+
+        <aop:advisor advice-ref="afterlog" pointcut-ref="mypointcut"></aop:advisor>
+        <aop:advisor advice-ref="prelog" pointcut-ref="mypointcut"></aop:advisor>
+    </aop:config>
+
+</beans>
