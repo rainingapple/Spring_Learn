@@ -6,9 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="SpringMVC-03-RestFul" />
         <module name="SpringMVC-01-HelloMVC" />
         <module name="SpringMVC-02-Annotation" />
-        <module name="SpringMVC-03-RestFul" />
+        <module name="SpringMVC-04-Forward_and_Redirect" />
       </profile>
     </annotationProcessing>
   </component>

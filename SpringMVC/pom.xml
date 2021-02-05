@@ -12,6 +12,7 @@
         <module>SpringMVC-01-HelloMVC</module>
         <module>SpringMVC-02-Annotation</module>
         <module>SpringMVC-03-RestFul</module>
+        <module>SpringMVC-04-Forward_and_Redirect</module>
     </modules>
 
     <properties>

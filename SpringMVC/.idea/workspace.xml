@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="SpringMVC-03-RestFul:war exploded" />
+      <artifact name="SpringMVC-04-Forward_and_Redirect:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -10,23 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b57e6813-0bf5-4a16-b84d-91a631613ef5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Spring Core/.idea/Spring Core.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/SpringMVC_01_HelloMVC_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring Core/Spring-09-MyBatis/Spring-09-MyBatis.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring Core/Spring-10-transaction/Spring-10-transaction.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVC-01-HelloMVC/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVC-01-HelloMVC/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVC-01-HelloMVC/src/main/java/cn/rainingapple/controller/HelloController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVC-01-HelloMVC/src/main/resources/springmvc-servlet.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVC-01-HelloMVC/web/WEB-INF/jsp/hello.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVC-01-HelloMVC/web/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVC-01-HelloMVC/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMVC-01-HelloMVC/SpringMVC-01-HelloMVC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMVC-01-HelloMVC/SpringMVC-01-HelloMVC.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMVC-02-Annotation/SpringMVC-02-Annotation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMVC-02-Annotation/SpringMVC-02-Annotation.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jsp File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -97,15 +85,13 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -130,11 +116,12 @@
       <method v="2" />
     </configuration>
     <configuration name="Tomcat 9.0.37" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.37" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/SpringMVC_04_Forward_and_Redirect_war_exploded/" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="SpringMVC-03-RestFul:war exploded">
+        <artifact name="SpringMVC-04-Forward_and_Redirect:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/SpringMVC_03_RestFul_war_exploded" />
+            <option name="CONTEXT_PATH" value="/SpringMVC_04_Forward_and_Redirect_war_exploded" />
           </settings>
         </artifact>
       </deployment>
@@ -212,7 +199,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="SpringMVC-03-RestFul:war exploded" />
+          <artifact name="SpringMVC-04-Forward_and_Redirect:war exploded" />
         </option>
       </method>
     </configuration>
@@ -230,6 +217,7 @@
       <updated>1612496041673</updated>
       <workItem from="1612496043744" duration="2740000" />
       <workItem from="1612509412297" duration="4027000" />
+      <workItem from="1612525723158" duration="3975000" />
     </task>
     <servers />
   </component>
