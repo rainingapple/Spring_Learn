@@ -28,4 +28,8 @@ More information see my blog : http://rainingapple.cn/
 
 ## SpringMVC
 
-[SpringMVC-01-HelloMVC](http://rainingapple.cn/2021/02/04/SpringMVC-01-HelloMVC/) : SpringMVC framework、Dispatcher Servlet 、 Spring MVC demo
+[SpringMVC-01-HelloMVC](http://rainingapple.cn/2021/02/04/SpringMVC-01-HelloMVC/) : SpringMVC framework，Spring MVC demo using configure
+
+[SpringMVC-02-Annotation](http://rainingapple.cn/2021/02/04/SpringMVC-01-HelloMVC/) : SpringMVC framework，Spring MVC demo using annotation
+
+[SpringMVC-03-RestFul风格](http://rainingapple.cn/2021/02/05/SpringMVC-02-RestFul风格/) : RestFul Style , using @PathVariable and @ GetMapping .etc
