@@ -2,13 +2,15 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="SpringMVC-06-json" />
-        <module name="SpringMVC-03-RestFul" />
         <module name="SpringMVC-01-HelloMVC" />
+        <module name="SpringMVC-06-json" />
+        <module name="SpringMVC-07-SSM_Framework" />
+        <module name="SpringMVC-03-RestFul" />
         <module name="SpringMVC-02-Annotation" />
         <module name="SpringMVC-04-Forward_and_Redirect" />
         <module name="SpringMVC-05-Model_and_MessyCode" />

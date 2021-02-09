@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="MyAliyun">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/usr/local/apache-tomcat-9.0.37/webapps" local="$PROJECT_DIR$/SpringMVC-07-SSM_Framework" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

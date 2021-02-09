@@ -3,6 +3,7 @@
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/SpringMVC-06-json" />
+    <file type="web" url="file://$PROJECT_DIR$/SpringMVC-07-SSM_Framework" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">

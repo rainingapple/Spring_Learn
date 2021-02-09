@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.rainingapple.dao.BookMapper">
+
+    <!--一定注意这里id一个字都不能错-->
+    <insert id="addBook" parameterType="books">
+        insert into books (bookName,bookCounts,detail)
+        values (#{bookName},#{bookCounts},#{detail})
+    </insert>
+
+    <!--根据id删除一个Book-->
+    <delete id="deleteBookById" parameterType="int">
+        delete from books where bookID=#{id}
+    </delete>
+
+    <update id="updateBook" parameterType="Books">
+        update books
+        set bookCounts = #{bookCounts},bookName = #{bookName},detail = #{detail}
+        where bookID = #{bookID};
+    </update>
+
+    <select id="queryBookById" resultType="books">
+        select *
+        from books
+        where bookID = #{id};
+    </select>
+
+    <select id="selectbooks" resultType="books">
+        select * from books
+    </select>
+</mapper>

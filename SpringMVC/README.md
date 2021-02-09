@@ -11,3 +11,5 @@
 [SpringMVC-05-Model_and_MessyCode](http://rainingapple.cn/2021/02/06/SpringMVC-04-Model-and-MessyCode/) : Details about SpringMVC model and MVC solution about MessyCode
 
 [SpringMVC-06-JSON](http://rainingapple.cn/2021/02/06/SpringMVC-05-Json/) : Using SpingMVC operating JSON 
+
+[SpringMVC-07-SSM_FrameWork](http://rainingapple.cn/2021/02/09/SpringMVC-06-SSM-FrameWork/) : Simple program using SSM Framework

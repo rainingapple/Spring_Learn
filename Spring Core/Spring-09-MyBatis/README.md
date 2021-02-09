@@ -203,6 +203,30 @@ public static SqlSession getSession(){
 }
 ```
 
+**UserMapper与UserMapper.xml暂时还是需要手动配置**
+
+#### 配置UserMapper接口
+
+```java
+public interface UserMapper {
+    List<User> selectuser();
+}
+```
+
+#### 配置UserMapper.xml
+
+```xml
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.rainingapple.dao.UserMapper">
+    <select id="selectuser" resultType="user">
+        select * from user
+    </select>
+</mapper>
+```
+
 #### 配置UserMapperImpl
 
 ##### xml
@@ -242,7 +266,7 @@ public class UserMapperImpl implements UserMapper{
 </mapper>
 ```
 
-#### spring-mybatis.xml
+#### 完整的spring-mybatis.xml
 
 可复用的配置数据源、配置sessionfactory、配置sessiontemplate在这里完成
 
@@ -274,7 +298,7 @@ public class UserMapperImpl implements UserMapper{
 </beans>
 ```
 
-#### 完整的beans.xml
+#### 合并的beans.xml
 
 通过引入spring-mybatis导入共同的相关操作，在beans.xml中仅需要配置UserMapperImpl,实现配置复用
 
