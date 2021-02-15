@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="SpringMVC-07-SSM_Framework:war exploded" />
+      <artifact name="SpringMVC-10-File:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -10,8 +10,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b57e6813-0bf5-4a16-b84d-91a631613ef5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/SpringMVC-07-SSM_Framework/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring Core/Spring-09-MyBatis/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring Core/Spring-09-MyBatis/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -19,6 +17,7 @@
       <change beforePath="$PROJECT_DIR$/SpringMVC-02-Annotation/SpringMVC-02-Annotation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMVC-02-Annotation/SpringMVC-02-Annotation.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpringMVC-03-RestFul/SpringMVC-03-RestFul.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMVC-03-RestFul/SpringMVC-03-RestFul.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpringMVC-04-Forward_and_Redirect/SpringMVC-04-Forward_and_Redirect.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMVC-04-Forward_and_Redirect/SpringMVC-04-Forward_and_Redirect.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMVC-05-Model_and_MessyCode/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMVC-05-Model_and_MessyCode/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpringMVC-05-Model_and_MessyCode/SpringMVC-05-Model_and_MessyCode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMVC-05-Model_and_MessyCode/SpringMVC-05-Model_and_MessyCode.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -30,8 +29,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jsp File" />
         <option value="Interface" />
+        <option value="Jsp File" />
         <option value="Class" />
       </list>
     </option>
@@ -71,7 +70,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/SpringMVC-07-SSM_Framework" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/SpringMVC-10-File/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -85,18 +84,32 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Spring_Learn\SpringMVC\SpringMVC-10-File\src\main\resources" />
+      <recent name="D:\Spring_Learn\SpringMVC\SpringMVC-09-Blocker\src\main\resources" />
+      <recent name="D:\Spring_Learn\SpringMVC\SpringMVC-08-Ajax\web\statics\js" />
       <recent name="D:\Spring_Learn\SpringMVC\SpringMVC-06-json\web" />
       <recent name="D:\Spring_Learn\SpringMVC\SpringMVC-01-HelloMVC\src\main\resources" />
-      <recent name="D:\Spring_Learn\SpringMVC\SpringMVC-01-HelloMVC\src\main\java" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Spring_Learn\SpringMVC\SpringMVC-09-Blocker\web" />
       <recent name="D:\Spring_Learn\SpringMVC\SpringMVC-03-RestFul\web\WEB-INF\jsp" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="cn.rainingapple.pojo" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat Remote">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.37">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="SpringMVC" />
       <working_directory value="$PROJECT_DIR$" />
@@ -167,12 +180,12 @@
       </method>
     </configuration>
     <configuration name="Tomcat 9.0.37" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.37" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/SpringMVC_07_SSM_Framework_war_exploded/" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/SpringMVC_10_File_war_exploded/" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="SpringMVC-07-SSM_Framework:war exploded">
+        <artifact name="SpringMVC-10-File:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/SpringMVC_07_SSM_Framework_war_exploded" />
+            <option name="CONTEXT_PATH" value="/SpringMVC_10_File_war_exploded" />
           </settings>
         </artifact>
       </deployment>
@@ -250,7 +263,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="SpringMVC-07-SSM_Framework:war exploded" />
+          <artifact name="SpringMVC-10-File:war exploded" />
         </option>
       </method>
     </configuration>
@@ -366,6 +379,9 @@
       <workItem from="1612836372601" duration="1263000" />
       <workItem from="1612854931037" duration="14109000" />
       <workItem from="1612872894437" duration="652000" />
+      <workItem from="1612921410618" duration="7101000" />
+      <workItem from="1613352742606" duration="10312000" />
+      <workItem from="1613374989217" duration="4841000" />
     </task>
     <servers />
   </component>

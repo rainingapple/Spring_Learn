@@ -127,7 +127,7 @@ public String hello(@RequestParam("username") String name, ModelMap model){
 ### 第三种 : 通过Model
 
 ```java
-@RequestMapping("test6")
+@RequestMapping("/test6")
 public String hello(@RequestParam("username") String name, Model model){
    //封装要显示到视图中的数据
    //相当于req.setAttribute("name",name);

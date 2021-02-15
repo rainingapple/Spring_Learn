@@ -9,8 +9,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="SpringMVC-01-HelloMVC" />
         <module name="SpringMVC-06-json" />
+        <module name="SpringMVC-09-Blocker" />
         <module name="SpringMVC-07-SSM_Framework" />
         <module name="SpringMVC-03-RestFul" />
+        <module name="SpringMVC-10-File" />
+        <module name="SpringMVC-08-Ajax" />
         <module name="SpringMVC-02-Annotation" />
         <module name="SpringMVC-04-Forward_and_Redirect" />
         <module name="SpringMVC-05-Model_and_MessyCode" />
@@ -18,6 +21,8 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="SpringMVC-05-数据回显与乱码" target="8" />
+      <module name="SpringMVC-09-Interceptor" target="8" />
+      <module name="SpringMVC-09-拦截器" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>

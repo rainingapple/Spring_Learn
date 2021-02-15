@@ -16,6 +16,9 @@
         <module>SpringMVC-05-Model_and_MessyCode</module>
         <module>SpringMVC-06-json</module>
         <module>SpringMVC-07-SSM_Framework</module>
+        <module>SpringMVC-08-Ajax</module>
+        <module>SpringMVC-09-Blocker</module>
+        <module>SpringMVC-10-File</module>
     </modules>
 
     <properties>
