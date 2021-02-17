@@ -315,6 +315,28 @@ springboot 启动会扫描以下位置的application.properties或者application
 
 **SpringBoot会从这四个位置全部加载主配置文件；互补配置；**
 
+## 自动配置原理
+
+详细的可以参考狂神的博客：[运行原理初探](https://mp.weixin.qq.com/s?__biz=Mzg2NTAzMTExNg%3D%3D&chksm=ce6107fcf9168eeaa5381228dad0e888ffc03401bc51e4bc7637bd46604b8e6e468cc8b43956&idx=1&mid=2247483743&scene=21&sn=431a5acfb0e5d6898d59c6a4cb6389e7#wechat_redirect) 、[自动配置原理初探](https://mp.weixin.qq.com/s?__biz=Mzg2NTAzMTExNg%3D%3D&chksm=ce6107d5f9168ec34f59d88c5a7cfa592ab2c1a5bf02cc3ed7bbb7b4f4e93d457144a6843a23&idx=1&mid=2247483766&scene=21&sn=27739c5103547320c505d28bec0a9517#wechat_redirect) 
+
+简单的来说，自动配置的核心是...AutoConfiguration和...Properties
+
+我们可以在项目的依赖中找到AutoConfiguration
+
+![屏幕截图 2021-02-17 152520](https://picgo-mk.oss-cn-beijing.aliyuncs.com/20210217152833.png)
+
+spring.factories中说明了我们需要加载的自动配置类
+
+![屏幕截图 2021-02-17 152532](https://picgo-mk.oss-cn-beijing.aliyuncs.com/20210217152906.png)
+
+其中的众多的自动配置类会对应绑定自己的Properties文件
+
+![屏幕截图 2021-02-17 152603](https://picgo-mk.oss-cn-beijing.aliyuncs.com/20210217152946.png)
+
+对应的Properties会声明自己在配置中对应的前缀
+
+![屏幕截图 2021-02-17 152618](https://picgo-mk.oss-cn-beijing.aliyuncs.com/20210217153011.png)
+
 ## 参考
 
 springboot官方文档
