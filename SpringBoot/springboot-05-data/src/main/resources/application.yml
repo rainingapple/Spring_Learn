@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    username: root
+    password: "@appleis555"
+    url: jdbc:mysql://rm-bp1y5p52ds3x2u07sfo.mysql.rds.aliyuncs.com:3306/demo01?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8
+    driver-class-name: com.mysql.cj.jdbc.Driver
