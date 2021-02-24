@@ -13,7 +13,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import javax.servlet.http.HttpSession;
-import java.util.Collection;
 
 
 @Controller
@@ -47,14 +46,13 @@ public class EmployeeController {
         Employee employeeByID = employeeDao.getEmployeeById(id);
         model.addAttribute("empByID", employeeByID);
         //查出所有的部门信息,添加到departments中,用于前端接收
-        Collection<Department> departments = departmentDao.getDepartment();
-        model.addAttribute("departments", departments);
+        model.addAttribute("departments", departmentDao.getDepartment());
         return "/emp/edit";
     }
 
     @PostMapping("/edit")
     public String EditEmp(Employee employee) {
-        employeeDao.addemployee(employee);//添加一个员工
+        employeeDao.editemployee(employee);//添加一个员工
         return "redirect:/emps";//添加完成重定向到/emps,刷新列表
     }
 

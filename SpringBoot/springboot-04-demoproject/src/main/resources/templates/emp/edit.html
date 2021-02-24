@@ -77,10 +77,10 @@
                 <div class="form-group">
                     <label>department</label>
                     <!--注意这里的name是department.id，因为传入的参数为id-->
-                    <select class="form-control" name="department.id">
-                        <option th:selected="${department.getId()==empByID.department.getId()}"
-                                th:each="department:${departments}" th:text="${department.getDepartmentName()}"
-                                th:value="${department.getId()}">
+                    <select class="form-control" name="departmentid">
+                        <option th:selected="${department['id']==empByID.getDepartmentid()}"
+                                th:each="department:${departments}" th:text="${department['departmentname']}"
+                                th:value="${department['id']}">
                         </option>
                     </select>
                 </div>

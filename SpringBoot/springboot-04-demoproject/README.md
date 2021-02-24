@@ -1,6 +1,6 @@
 # SpringBoot-04-DemoProject
 
-伪造数据库的 SpringBoot 人员管理系统demo项目
+SpringBoot 人员管理系统demo项目
 
 https://blog.csdn.net/qq_45173404/article/details/108934414
 

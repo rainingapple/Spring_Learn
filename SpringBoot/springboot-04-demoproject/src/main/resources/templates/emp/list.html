@@ -66,15 +66,15 @@
 							</thead>
 							<tbody>
 							<tr th:each="emp:${emps}">
-								<td th:text="${emp.getId()}"></td>
-								<td th:text="${emp.getLastName()}"></td>
-								<td th:text="${emp.getEmail()}"></td>
-								<td th:text="${emp.getGender()==0?'女':'男'}"></td>
-								<td th:text="${emp.getDepartment().getDepartmentName()}"></td>
-								<td th:text="${#dates.format(emp.getDate(),'yyyy-MM-dd HH:mm:ss')}"></td>
+								<td th:text="${emp['id']}"></td>
+								<td th:text="${emp['lastName']}"></td>
+								<td th:text="${emp['email']}"></td>
+								<td th:text="${emp['gender']==0?'女':'男'}"></td>
+								<td th:text="${emp['departmentname']}"></td>
+								<td th:text="${#dates.format(emp['date'],'yyyy-MM-dd HH:mm:ss')}"></td>
 								<td>
-									<a class="btn btn-sm btn-primary" th:href="@{/edit/{id}(id=${emp.getId()})}">编辑</a>
-									<a class="btn btn-sm btn-danger" th:href="@{/del/{id}(id=${emp.getId()})}">删除</a>
+									<a class="btn btn-sm btn-primary" th:href="@{/edit/{id}(id=${emp['id']})}">编辑</a>
+									<a class="btn btn-sm btn-danger" th:href="@{/del/{id}(id=${emp['id']})}">删除</a>
 								</td>
 							</tr>
 							</tbody>
